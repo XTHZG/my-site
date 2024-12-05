@@ -42,7 +42,7 @@ public class QiniuCloudService {
     public String QINIU_UPLOAD_SITE;
 
     public String upload(MultipartFile file, String fileName) {
-
+          //1
         //构造一个带指定Zone对象的配置类，注意这里需要根据自己的选择的存储区域来选择对应的Zone对象
         Configuration cfg = new Configuration(Zone.zone0());
         //...其他参数参考类注释
